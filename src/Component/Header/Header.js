@@ -26,4 +26,4 @@ const MainHeader = styled.header`
     .logo{
         height:5rem;
     }
-`
+`;

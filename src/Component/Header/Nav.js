@@ -7,7 +7,6 @@ import { CgMenu, CgClose } from "react-icons/cg";
 const Nav = () => {
   const [menuIcon, setMenuIcon] = useState();
 
-
   const Nav = styled.nav`
   .navbar{
     position: static;
