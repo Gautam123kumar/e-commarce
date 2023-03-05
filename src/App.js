@@ -6,10 +6,11 @@ import Products from "./Component/Products/Products"
 import Contact from "./Component/Contacts/Contact";
 import SingleProduct from "./Component/SingleProduct/SingleProduct";
 import Cart from "./Component/Cart/Cart";
-import Error from "./Component/ErrorComponent/Error";
+import Error from "./Component/ErrorPage/Error";
 import { GlobalStyle } from "./GlobalStyle";
 import { ThemeProvider } from "styled-components";
 import { Header } from "./Component/Header/Header";
+import Footer from "./Component/Footer/Footer";
 
 function App() {
   const theme = {
@@ -50,6 +51,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="*" element={<Error />} />
         </Routes>
+        <Footer/>
       </Router>
     </ThemeProvider>
   );

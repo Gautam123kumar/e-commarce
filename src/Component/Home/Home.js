@@ -1,6 +1,8 @@
 import React from 'react'
+import FeatureProducts from '../FeatureProducts'
 // import styled from 'styled-components'
 import HeroSection from '../HeroSection/HeroSection'
+import Products from '../Products/Products'
 import Services from '../Services'
 import Trusted from '../Trusted'
 
@@ -11,8 +13,10 @@ function Home() {
   return (
     <>
       <HeroSection myData={data} />
+      <FeatureProducts/>
       <Services />
       <Trusted />
+      
     </>
 
   )
